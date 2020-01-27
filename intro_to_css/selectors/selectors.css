@@ -1,0 +1,11 @@
+li.odd {
+    background-color: gainsboro;
+}
+
+li#first, li#last {
+    font-weight: bold;
+}
+
+li#first {
+    color: blue;
+}

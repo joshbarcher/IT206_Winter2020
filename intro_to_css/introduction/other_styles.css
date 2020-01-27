@@ -1,0 +1,9 @@
+p {
+    border: 2px solid black;
+    padding: 6px;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: black underline;
+}

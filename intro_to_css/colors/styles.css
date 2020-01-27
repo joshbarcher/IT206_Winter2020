@@ -1,0 +1,22 @@
+body {
+    background-color: #fff3b0;
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;
+}
+
+h1 {
+    background-color: #540b0e;
+    color: #e09f3e;
+}
+
+ul {
+    background-color: #e09f3e;
+    color: black;
+}
+
+p, h2, footer {
+    color: #335c67;
+}
+
+pre {
+    font-family: Consolas,monaco,monospace;
+}

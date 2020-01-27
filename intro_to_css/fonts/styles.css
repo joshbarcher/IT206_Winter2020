@@ -1,0 +1,15 @@
+body {
+    font-family: 'Bangers', cursive;
+}
+
+p {
+    font-size: 2rem;
+}
+
+p.top-paragraph {
+    font-size: 1rem;
+}
+
+p span.important {
+    font-size: 16pt;
+}
