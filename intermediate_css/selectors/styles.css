@@ -1,0 +1,19 @@
+h1:first-child {
+    color: olive;
+}
+
+h1:last-child{
+    text-decoration: underline;
+}
+
+ul:last-child {
+    background-color: pink;
+}
+
+h1:first-of-type {
+    color: orange;
+}
+
+h1:last-of-type {
+    color: aquamarine;
+}
