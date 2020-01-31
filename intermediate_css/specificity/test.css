@@ -1,0 +1,12 @@
+p.awesome {
+    background-color: orange;
+}
+
+p {
+    background-color: blue;
+    font-family: "Courier New",monospace;
+}
+
+html body p {
+    background-color: beige;
+}
