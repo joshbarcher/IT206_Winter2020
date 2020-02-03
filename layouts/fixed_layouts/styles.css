@@ -1,0 +1,26 @@
+html {
+    background-color: darkseagreen;
+}
+
+body {
+    width: 90%;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+p {
+    width: 32%;
+    border: 14px solid black;
+    padding: 30px;
+    display: inline-block;
+    box-sizing: border-box; /* include the padding and border in the width */
+}
+
+h1, footer {
+    text-align: center;
+    padding: 6px;
+}
+
+h1 {
+    font-size: 1.6em;
+}

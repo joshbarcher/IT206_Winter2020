@@ -1,0 +1,23 @@
+div {
+    float: left;
+    width: 33%;
+    padding: 8px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+article {
+    background-color: bisque;
+}
+
+article::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+img {
+    width: 80px;
+    float: left;
+    margin: 4px;
+}
