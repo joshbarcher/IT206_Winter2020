@@ -1,23 +1,32 @@
 div {
-    float: left;
     width: 33%;
-    padding: 8px;
-    border: 2px solid black;
+    float: left;
     box-sizing: border-box;
 }
 
-article {
-    background-color: bisque;
+div:first-of-type {
+    width: 34%;
 }
 
+section {
+    margin: 14px;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: #c297ed;
+}
+
+/* apply the clear-fix hack */
 article::after {
-    clear: both;
     content: "";
     display: table;
+    clear: both;
 }
 
 img {
-    width: 80px;
-    float: left;
-    margin: 4px;
+    width: 100px;
+    float: right;
+}
+
+article {
+    background-color: #e7c5ed;
 }
