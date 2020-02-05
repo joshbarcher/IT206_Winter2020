@@ -1,11 +1,11 @@
 div {
-    width: 33%;
+    width: 50%;
     float: left;
     box-sizing: border-box;
 }
 
-div:first-of-type {
-    width: 34%;
+div:nth-of-type(odd) {
+    clear: both;
 }
 
 section {
@@ -13,6 +13,12 @@ section {
     border: 2px solid black;
     padding: 8px;
     background-color: #c297ed;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* apply the clear-fix hack */
@@ -29,4 +35,9 @@ img {
 
 article {
     background-color: #e7c5ed;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 2em;
 }
