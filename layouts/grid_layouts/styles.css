@@ -24,3 +24,28 @@ div.main-column > nav {
 div.main-column > article {
     margin-left: 5px;
 }
+
+h2 {
+    color: blueviolet;
+    font-size: 1.1em;
+}
+
+div.sub-column > section {
+    background-color: rgba(128, 128, 128, 0.69);
+    border: 2px solid rgba(0, 0, 0, 0.71);
+    padding: 6px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
