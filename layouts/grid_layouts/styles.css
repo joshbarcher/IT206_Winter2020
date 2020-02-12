@@ -1,0 +1,26 @@
+html {
+    background-color: bisque;
+}
+
+body {
+    background-color: beige;
+    margin: 0 auto;
+    width: 900px;
+}
+
+div.main-column > nav, div.main-column > article {
+    padding: 10px;
+    border: 2px solid rgba(123, 123, 123, 0.45);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* left column */
+div.main-column > nav {
+    margin-right: 5px;
+}
+
+/* right column */
+div.main-column > article {
+    margin-left: 5px;
+}
