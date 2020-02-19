@@ -30,8 +30,8 @@ h2 {
     font-size: 1.1em;
 }
 
-div.sub-column > section {
-    background-color: rgba(128, 128, 128, 0.69);
+section {
+    background-color: rgba(128, 128, 128, 0.51);
     border: 2px solid rgba(0, 0, 0, 0.71);
     padding: 6px;
     border-radius: 5px;
