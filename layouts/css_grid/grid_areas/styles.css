@@ -40,3 +40,33 @@ article, header, footer, aside {
     padding: 10px;
 }
 
+/* create the grid */
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "head    head    head   books"
+        "clocks  clocks  clocks books"
+        "furn    jewel   jewel  jewel"
+        "clothes clothes foot   foot";
+}
+
+/* name each element in the grid */
+header { grid-area: head; }
+footer { grid-area: foot; }
+article#books { grid-area: books; }
+article#clocks { grid-area: clocks; }
+article#clothes { grid-area: clothes; }
+article#furniture { grid-area: furn; }
+article#jewelry { grid-area: jewel; }
+
+
+
+
+
+
+
+
+
+
+
