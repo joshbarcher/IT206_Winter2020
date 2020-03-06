@@ -25,44 +25,43 @@
             </div>
         </section>
 
-        <section id="gender">
+        <fieldset id="gender">
+            <legend>Gender</legend>
             <div class="form-field">
-                <input name="gender" id="male" type="radio">
-                <label for="male">Male</label>
-                <input name="gender" id="female" type="radio">
-                <label for="female">Female</label>
-                <input name="gender" id="other" type="radio">
-                <label for="other">Other (unspecified)</label>
+                <div class="form-field">
+                    <input name="gender" id="male" type="radio">
+                    <label for="male">Male</label>
+                </div>
+                <div class="form-field">
+                    <input name="gender" id="female" type="radio">
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-field">
+                    <input name="gender" id="other" type="radio">
+                    <label for="other">Other (unspecified)</label>
+                </div>
             </div>
-        </section>
-
-        <div class="form-field">
-            <label for="rate-em">Rate our site!</label>
-            <input type="range" name="rate-em" id="rate-em">
-        </div>
-
-        <section id="contact-you">
-            <div class="form-field">
-                <input name="contact" id="sms" type="radio">
-                <label for="sms">SMS</label>
-                <input name="contact" id="email" type="radio">
-                <label for="email">Email</label>
-            </div>
-        </section>
+        </fieldset>
 
         <fieldset id="hear-about">
             <legend>How did you hear about us?</legend>
 
-            <input type="checkbox" name="about" id="advert">
-            <label for="advert">Advertisement</label>
-            <input type="checkbox" name="about" id="word-of-mouth">
-            <label for="word-of-mouth">Word of mouth</label>
-            <input type="checkbox" name="about" id="website">
-            <label for="website">Website</label>
+            <div class="form-field">
+                <input type="checkbox" name="about" id="advert">
+                <label for="advert">Advertisement</label>
+            </div>
+            <div class="form-field">
+                <input type="checkbox" name="about" id="word-of-mouth">
+                <label for="word-of-mouth">Word of mouth</label>
+            </div>
+            <div class="form-field">
+                <input type="checkbox" name="about" id="website">
+                <label for="website">Website</label>
+            </div>
         </fieldset>
 
         <section id="company-services">
-            <label for="services"></label>
+            <label for="services">What services were you interested in?</label>
             <select name="services" id="services">
                 <option value="copy">Copy services</option>
                 <option value="fax">Fax services</option>
